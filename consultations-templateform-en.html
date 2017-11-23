@@ -35,10 +35,37 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 	.placeholder {
 		background-color: #ffffdf;
 	}
-
-	option.placeholder {
-		color: #cccc00;
-		background-color: #ffffff;
+	
+	
+	.tip {
+		border: 1px #ddd solid;
+		background-color: #ccc;
+		border-radius: 4px;
+		font-size: 15px !important;
+		color: black;
+		font-weight: 400 !important;
+		padding: 4px;
+		text-decoration: underline !important;
+		margin-bottom: 5px;
+		
+	}
+	
+	.mandatory {
+		
+		border-left: 5px solid #d3080c;
+		border-bottom: dotted 1px black;
+		text-decoration: none !important;
+		color: black;
+		padding-left: 5px;
+		background-color: #f3e9e8 !important;
+		
+		
+	}
+	
+	.mandatory.headlrg {
+	
+		line-height: 35px;
+		
 	}
 	
 
@@ -158,7 +185,13 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
  	<p class="gc-byline"><strong>From <a href="#" class="placeholder">Department or organization name</a></strong></p>
 	
 
-	<h2>Current status: Open </h2>
+	<h2>Current status: Open 
+    
+     <!-- for viewing an alternative state, remove when using -->
+    <a href="./consultations-templateformclosed-en.html"> <span class="tip"> &#9432 View closed</span> </a> <!-- end of demo -->
+    
+    
+    </h2>
 	<p>Opened on <span class="placeholder">Month DD,YYYY</span> and will close to new input on <span class="placeholder">Month DD,YYYY</span>.</p>
 	
 	<p>(Short plain-language description of consultation goals and expected outcomes. Max 2 sentences. Must be at the appropriate reading level - grade 6-8 for general public, higher for extremely technical consultations.)</p>
@@ -225,6 +258,9 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
         				<button class="btn btn-primary" type="button" onClick="$( '.wb-overlay' ).trigger( 'close.wb-overlay' );">Close</button>
 			</div>
 		</section> <!-- end of demo -->
+        
+        <!-- for viewing an alternative state, remove when using -->
+    <a href="./consultations-template-en.html"> <span class="tip pull-right"> &#9432 View without web form</span> </a> <!-- end of demo -->
 
 </div>
 
